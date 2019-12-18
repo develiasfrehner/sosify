@@ -1,0 +1,25 @@
+/*@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');*/
+
+
+body {
+    padding:0px;
+    margin:0px;
+    background-image: url("img/iphone11.png");
+    background-position: center;
+    background-repeat: cover;
+}
+
+p.appname {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+img.appicon {
+  height: 70px;
+}
+
+img.screenshot_homepage {
+  height: 300px;
+}
+/* ist ja nur ein kommentar*/
