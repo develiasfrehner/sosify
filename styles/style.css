@@ -5,7 +5,10 @@
 body {
   padding:0px;
   margin:0px;
-  background-image: url("/img/iphone11.png");
+  background-image: url("../img/light_background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 
@@ -13,6 +16,7 @@ p.appname {
   font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;
+  color: white;
 }
 
 img.appicon {
