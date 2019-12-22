@@ -1,29 +1,70 @@
-/*@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
+/* colors: https://flatuicolors.com/palette/us */
 
 body {
-  padding:0px;
-  margin:0px;
-  background-image: url("../img/light_background.png");
+  margin: 0px;
+  padding: 0px;
+/*  background-image: url("../img/light_background.png");
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  position: relative;*/
+/*  background-color: #2d3436*/
+  background-image: linear-gradient(to right, #ffeaa7, #fdcb6e, #e17055);
 }
 
 
-p.appname {
-  font-size: 30px;
-  font-weight: bold;
-  font-family: sans-serif;
-  color: black;
+/*__________________________________________________*/
+div.appbox {
+
+}
+/*__________________________________________________*/
+
+div.appbox {
+  float: left;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 
-img.appicon {
-  height: 70px;
+img.icon {
+  border-radius: 10px;;
+  width: 50px;
+  margin: 20px;
 }
 
-img.screenshot_homepage {
-  height: 300px;
+img.appstore_button {
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
+
+a.app_name {
+  color: white;
+  text-decoration: none;
+  font-size: 120%;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+}
+
+img.socialmedia_icon {
+  margin: 30px;
+  height: 30px;
+}
+
+div.socialmedia {
+  text-align: center;
+}
+
+img.screenshot {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* ist ja nur ein kommentar*/

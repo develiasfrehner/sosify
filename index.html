@@ -2,18 +2,15 @@
 <html lang="en">
 <head>
 
-
-
 <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 <link rel="manifest" href="img/favicon/site.webmanifest">
 <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <link rel="shortcut icon" href="img/favicon/favicon.ico">
-<meta name="msapplication-TileColor" content="#9f00a7">
+<meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
-
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,18 +18,34 @@
     <title>SOSify</title>
     <link rel="stylesheet" href="styles/style.css">
 
+<!--appbanner: https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html -->
 
+<meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
 
 </head>
 <body>
 
-<a href="sites/darkmode.html" class="modeoption"><img src="img/lightmode.png" alt="turn darkmode on" /></a>
+<div class="appbox">
+<a href="https://www.appstore.link"><img class="icon" src="apps/appicon.png" alt="app icon" /></a>
+<a class="app_name" href="https://www.appstore.link">SOSify (BETA)</a>
+</div>
 
-<img class="screenshot_homepage" src="img/mockup_1/iphone11_weiss.png" alt="SOSify App Icon">
 
-<img class="appicon" src="img/sos_logo/sos_with_corners_black.png" alt="SOSify App Icon Black">
+<a href="https://www.appstore.link"><img class="screenshot" src="img/light_screen.png" alt="screenshot" /></a>
 
-<p class="appname">SOSify</p>
+<a href="https://www.appstore.link"><img class="appstore_button" src="img/appstore_white.png" alt="app logo" /></a>
+
+<!--
+<a href="https://www.appstore.link"><img class="screenshot" src="img/iphone11_black.png" alt="darkmode screenshot" /></a>
+-->
+
+
+
+<div class="socialmedia">
+<a href="https://instagram.com/dev_eliasf"><img class="socialmedia_icon" src="img/instagram.png" alt="dev eliasfrehners instagram" /></a>
+<a href="https://twitter.com/dev_eliasf"><img class="socialmedia_icon" src="img/twitter.png" alt="dev eliasfrehners twitter" /></a>
+<a href="https://develiasfrehner.github.io/home"><img class="socialmedia_icon" src="img/homepage.png" alt="dev eliasfrehners homepage" /></a>
+</div>
 
 
     <script src="scripts/modechange.js"></script>
